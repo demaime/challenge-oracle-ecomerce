@@ -85,12 +85,11 @@ header {
 }
 
 .banner-container {
+  height: 30vh;
+  background-image: url(./imgs/banner.jpg);
+  background-size: cover;
   overflow: hidden;
   position: relative;
-}
-
-.banner {
-  width: 100%;
 }
 
 .banner-text {

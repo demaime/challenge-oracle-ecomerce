@@ -45,7 +45,7 @@ body {
 }
 
 header {
-  padding: 2%;
+  padding: 1% 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -133,6 +133,7 @@ header {
 .product img {
   border-radius: 2px;
   width: 100%;
+  box-shadow: 1px 1px 3px var(--medium-color);
 }
 
 .product {

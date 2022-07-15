@@ -151,3 +151,27 @@ header {
   font-size: 2vh;
   text-shadow: 1px 1px 5px var(--medium-color);
 }
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  box-shadow: 0px -4px 2px var(--medium-color);
+}
+
+.footer-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-items li {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2vh;
+  margin: 2% 0;
+}

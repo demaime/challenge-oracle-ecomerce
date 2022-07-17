@@ -1,0 +1,29 @@
+header {
+  height: 150px;
+  width: 100%;
+}
+
+.gallery-header {
+  text-align: center;
+}
+
+.categories-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category {
+  width: 80%;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px gray;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.category-img {
+  height: 10vh;
+}

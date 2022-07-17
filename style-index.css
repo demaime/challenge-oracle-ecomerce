@@ -4,6 +4,30 @@
   --dark-color: #5c434d;
 }
 
+.light-color-text {
+  color: var(--light-color) !important;
+}
+
+.medium-color-text {
+  color: var(--medium-color) !important;
+}
+
+.dark-color-text {
+  color: var(--dark-color) !important;
+}
+
+.light-bg {
+  background-color: var(--light-color) !important;
+}
+
+.medium-bg {
+  background-color: var(--medium-color) !important;
+}
+
+.dark-bg {
+  background-color: var(--dark-color) !important;
+}
+
 a:link {
   text-decoration: none;
   transition-duration: 500ms;
@@ -45,13 +69,13 @@ body {
 }
 
 header {
-  padding: 1% 5%;
+  padding: 3% 3%;
   display: flex;
   justify-content: space-between;
 }
 
 #logo-header {
-  height: 15vh;
+  height: 14vh;
 }
 
 .search-bar {
@@ -96,7 +120,7 @@ header {
   color: var(--light-color);
   position: absolute;
   width: 100%;
-  bottom: 5%;
+  bottom: 0;
   left: 2%;
 }
 
@@ -154,7 +178,6 @@ header {
 
 footer {
   background-color: var(--dark-color);
-  color: var(--light-color);
   box-shadow: 0px -4px 2px var(--medium-color);
 }
 

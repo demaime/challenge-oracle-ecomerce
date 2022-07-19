@@ -1,12 +1,27 @@
-.category-title {
+html {
+  font-family: "Arima", cursive;
+}
+.category-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2%;
 }
 
-.category-title p {
+.category-container p {
   margin: 0 5%;
+}
+
+.categories-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  transition-duration: 500ms;
+  max-height: 0px;
+  z-index: 0;
+  overflow: hidden;
 }
 
 .products-list {

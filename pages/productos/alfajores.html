@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../style-index.css" />
     <link rel="stylesheet" href="./productos-styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/12839909dd.js"
       crossorigin="anonymous"
@@ -23,17 +27,33 @@
       </div>
     </header>
     <main>
-      <div class="category-title medium-bg">
-        <p>ALFAJORES</p>
+      <div class="category-container medium-bg">
+        <p id="categoy-title">ALFAJORES</p>
         <i class="fa-solid fa-circle-chevron-down"></i>
       </div>
+      <ul class="categories-list">
+        <li class="category-container medium-bg">COOKIES</li>
+        <li class="category-container medium-bg">TORTAS</li>
+      </ul>
       <ul class="products-list dark-bg light-color-text">
-        <li class="product-list-item">ALFAJOR DE NUEZ</li>
-        <li class="product-list-item">ALFAJOR DE CHOCOLATE</li>
-        <li class="product-list-item">ALFAJOR DE COCO</li>
-        <li class="product-list-item">ALFAJOR DE DULCE DE LECHE</li>
-        <li class="product-list-item">ALFAJOR DE MOUSE</li>
-        <li class="product-list-item">COMBO ALFAJORES X3</li>
+        <li class="product-list-item" data-nombre="Alfajor de Nuez">
+          ALFAJOR DE NUEZ
+        </li>
+        <li class="product-list-item" data-nombre="Alfajor de Chocolate">
+          ALFAJOR DE CHOCOLATE
+        </li>
+        <li class="product-list-item" data-nombre="Alfajor de Coco">
+          ALFAJOR DE COCO
+        </li>
+        <li class="product-list-item" data-nombre="Alfajor de Dulce de leche">
+          ALFAJOR DE DULCE DE LECHE
+        </li>
+        <li class="product-list-item" data-nombre="Alfajor de Mouse">
+          ALFAJOR DE MOUSE
+        </li>
+        <li class="product-list-item" data-nombre="Combo alfajores x3">
+          COMBO ALFAJORES X3
+        </li>
       </ul>
       <div class="product-container light-bg dark-color-text">
         <div class="selected-product">
@@ -45,13 +65,14 @@
           </div>
         </div>
         <ul class="product-info">
-          <li>
+          <li id="product-description1">
             Masa color ámbar preparada con nueces tostadas y relleno de dulce de
             leche repostero
           </li>
-          <li></li>
-          <li>¡Ideal para merendar con amigos o familia!</li>
-          <li>$120</li>
+          <li id="product-description2">
+            ¡Ideal para merendar con amigos o familia!
+          </li>
+          <li id="product-price">$120</li>
         </ul>
       </div>
     </main>

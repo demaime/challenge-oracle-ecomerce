@@ -7,7 +7,7 @@ const productos = [
     descripcion2:
       "¡Ideal para merendar con amigos o familiares, acompañado de un café negro!",
     precio: "$120",
-    imagen: "alfajor1.jpg",
+    imagen: "alfajor1.JPG",
   },
   {
     categoria: "alfajores",
@@ -15,7 +15,7 @@ const productos = [
     descripcion1: "Masa semihúmeda de chocolate con cobertura 70% cacao",
     descripcion2: "Recomendamos probarlo de postre, con un submarino",
     precio: "$140",
-    imagen: "alfajor2.jpg",
+    imagen: "alfajor2.JPG",
   },
   {
     categoria: "alfajores",
@@ -25,7 +25,7 @@ const productos = [
     descripcion2:
       "¡Si sos fanático de lo extemadamente dulce, esta es tu opción!",
     precio: "$140",
-    imagen: "alfajor3.jpg",
+    imagen: "alfajor3.JPG",
   },
   {
     categoria: "alfajores",
@@ -35,7 +35,7 @@ const productos = [
     descripcion2:
       "No dejes que nadie te diga cuando es suficiente dulce de leche",
     precio: "$120",
-    imagen: "alfajor4.jpg",
+    imagen: "alfajor4.JPG",
   },
   {
     categoria: "alfajores",
@@ -44,7 +44,7 @@ const productos = [
       "Masa sabor cacao, con abundante relleno de mouse de chocolate",
     descripcion2: "La combinación ideal para una tarde de invierno",
     precio: "$130",
-    imagen: "alfajor5.jpg",
+    imagen: "alfajor5.JPG",
   },
   {
     categoria: "alfajores",
@@ -53,6 +53,6 @@ const productos = [
     descripcion2:
       "¡3 alfajores son mejores que uno! Oportunidad de degustar 3 variantes",
     precio: "$350",
-    imagen: "alfajor6.jpg",
+    imagen: "alfajor6.JPG",
   },
 ];

@@ -29,53 +29,32 @@
     <main>
       <div class="category-container medium-bg">
         <p id="categoy-title">ALFAJORES</p>
-        <i class="fa-solid fa-circle-chevron-down"></i>
+        <div id="arrow-container">
+          <i class="fa-solid fa-circle-chevron-down"></i>
+        </div>
       </div>
       <ul class="categories-list">
         <li class="category-container medium-bg">COOKIES</li>
         <li class="category-container medium-bg">TORTAS</li>
       </ul>
-      <ul class="products-list dark-bg light-color-text">
-        <li class="product-list-item" data-nombre="Alfajor de Nuez">
-          ALFAJOR DE NUEZ
-        </li>
-        <li class="product-list-item" data-nombre="Alfajor de Chocolate">
-          ALFAJOR DE CHOCOLATE
-        </li>
-        <li class="product-list-item" data-nombre="Alfajor de Coco">
-          ALFAJOR DE COCO
-        </li>
-        <li class="product-list-item" data-nombre="Alfajor de Dulce de leche">
-          ALFAJOR DE DULCE DE LECHE
-        </li>
-        <li class="product-list-item" data-nombre="Alfajor de Mouse">
-          ALFAJOR DE MOUSE
-        </li>
-        <li class="product-list-item" data-nombre="Combo alfajores x3">
-          COMBO ALFAJORES X3
-        </li>
-      </ul>
+      <ul class="products-list dark-bg light-color-text"></ul>
       <div class="product-container light-bg dark-color-text">
+        <p id="mensaje-inicial">Seleccione un producto de la lista</p>
         <div class="selected-product">
-          <img class="product-image" src="../../imgs/alfajor1.JPG" alt="" />
-          <h1 class="product-title">ALFAJOR DE NUEZ</h1>
-          <div>
-            <input class="amount-input" type="number" min="1" />
-            <button>Agregar al carrito</button>
-          </div>
+          <img class="product-image" src="" />
+          <h1 class="product-title"></h1>
         </div>
         <ul class="product-info">
-          <li id="product-description1">
-            Masa color ámbar preparada con nueces tostadas y relleno de dulce de
-            leche repostero
-          </li>
-          <li id="product-description2">
-            ¡Ideal para merendar con amigos o familia!
-          </li>
-          <li id="product-price">$120</li>
+          <li id="product-description1"></li>
+          <li id="product-description2"></li>
+          <li id="product-price"></li>
         </ul>
       </div>
     </main>
+    <div class="cart light-bg dark-color-text">
+      <input class="amount-input" type="number" min="1" />
+      <button class="add-to-cart" disabled="true">Agregar al carrito</button>
+    </div>
     <footer>
       <ul class="footer-items light-color-text">
         <li>

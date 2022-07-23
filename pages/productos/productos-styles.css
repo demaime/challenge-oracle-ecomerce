@@ -6,10 +6,15 @@ html {
   align-items: center;
   justify-content: center;
   padding: 2%;
+  box-shadow: inset 0px 0px 2px 0px var(--dark-color);
 }
 
 .category-container p {
   margin: 0 5%;
+}
+
+.category-container :hover {
+  cursor: pointer;
 }
 
 .categories-list {
@@ -20,8 +25,19 @@ html {
   width: 100%;
   transition-duration: 500ms;
   max-height: 0px;
-  z-index: 0;
   overflow: hidden;
+}
+
+#mensaje-inicial {
+  position: absolute;
+  font-size: 5vh;
+  width: 100%;
+  top: 25%;
+  text-align: center;
+  transition-duration: 200ms;
+}
+.opened {
+  max-height: 100% !important;
 }
 
 .products-list {
@@ -43,6 +59,7 @@ html {
   display: flex;
   width: 100%;
   padding: 3% 0;
+  position: relative;
 }
 
 .selected-product {
@@ -50,6 +67,7 @@ html {
   flex-direction: column;
   align-items: center;
   width: 60%;
+  transition-duration: 500ms;
 }
 
 .product-info {
@@ -61,6 +79,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  transition-duration: 500ms;
 }
 
 .product-image {
@@ -71,5 +90,32 @@ html {
   font-size: 2vh;
 }
 .amount-input {
-  width: 3vw;
+  font-weight: bolder;
+  font-family: "Arima", cursive;
+  border: none;
+  background-color: var(--medium-color);
+  width: 10%;
+  font-size: 2vh;
+  padding: 2%;
+  text-align: center;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  justify-content: center;
+}
+
+.cart > * {
+  margin: 0 5%;
+}
+
+.add-to-cart {
+  font-family: "Arima", cursive;
+  border: none;
+  background-color: var(--medium-color);
+  font-size: 2vh;
+  padding: 2% 8%;
+  text-align: center;
 }
